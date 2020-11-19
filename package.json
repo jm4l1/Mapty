@@ -1,0 +1,17 @@
+{
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "Map tracking app",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "leaflet-draw": "^1.0.4",
+    "parcel": "^1.12.4"
+  }
+}
