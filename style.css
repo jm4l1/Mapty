@@ -48,13 +48,25 @@ a:visited {
   display: flex;
   flex-direction: column;
 }
-
+.heading{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem 2.5rem;
+  margin-bottom: 4rem;
+}
 .logo {
   height: 5.2rem;
   align-self: center;
-  margin-bottom: 4rem;
+  grid-column: 2;
+}
+.clear_all{
+  height: 50px;
+  width: 50px;
 }
 
+.clear_all:hover{
+  cursor: pointer;
+}
 .workouts {
   list-style: none;
   height: 77vh;
